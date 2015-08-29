@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 781e60fda840d4e068343e1cedec5a46
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - GUIskin: {fileID: 11400000, guid: baaba4b4d1d7c401daa5217f5d6fe1b2, type: 2}
+  - Speedbar: {instanceID: 0}
+  - DropSpawn: {instanceID: 0}
+  - CrackSpawn: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
