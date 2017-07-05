@@ -2,7 +2,7 @@
 var passed = false;
 function Start() {
 var rand = Mathf.Floor(Random.Range(0,3));
-renderer.material.mainTexture = texture[rand];
+GetComponent.<Renderer>().material.mainTexture = texture[rand];
 
 }
 

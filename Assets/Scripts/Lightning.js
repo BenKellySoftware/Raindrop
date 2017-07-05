@@ -19,19 +19,19 @@ if (GameObject.Find("Player") == null || !GameObject.Find("Player").GetComponent
 		switch (Clip)
 		{
 		case 1:
-			audio.Stop();
-			audio.clip = Clip1; 
-			audio.Play();
+			GetComponent.<AudioSource>().Stop();
+			GetComponent.<AudioSource>().clip = Clip1; 
+			GetComponent.<AudioSource>().Play();
 		break;
 		case 2:
-			audio.Stop();
-			audio.clip = Clip2;
-			audio.Play();
+			GetComponent.<AudioSource>().Stop();
+			GetComponent.<AudioSource>().clip = Clip2;
+			GetComponent.<AudioSource>().Play();
 		break;
 		case 3:
-			audio.Stop();
-			audio.clip = Clip3;
-			audio.Play();
+			GetComponent.<AudioSource>().Stop();
+			GetComponent.<AudioSource>().clip = Clip3;
+			GetComponent.<AudioSource>().Play();
 		break;
 		}
 	}
